@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "soulreaper",
+  "version": "${version}",
+  "name": "Soulreaper",
+  "description": "",
+  "authors": [
+    "LucasHazardous"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/soulreaper/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "lucas.hazardous.soulreaper.client.SoulreaperClient"
+    ],
+    "main": [
+      "lucas.hazardous.soulreaper.Soulreaper"
+    ]
+  },
+  "mixins": [
+    "soulreaper.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.1"
+  }
+}

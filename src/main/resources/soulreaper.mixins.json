@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "lucas.hazardous.soulreaper.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "VillagerKillMixin",
+    "SoulTotemMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

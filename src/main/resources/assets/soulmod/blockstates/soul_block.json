@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "soulmod:block/soul_block"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "S S",
+    "S S"
+  ],
+  "key": {
+    "S": {
+      "item": "soulmod:soul_shard"
+    }
+  },
+  "result": {
+    "item": "soulmod:soul_shard_boots",
+    "count": 1
+  }
+}
